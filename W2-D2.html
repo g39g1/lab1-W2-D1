@@ -3,71 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cars</title>
 </head>
 <body>
-    <table>
-        
-            <tr>
-                <th>اسم الكتاب</th>
-                <th>الصورة</th>
-                <th>السعر</th>
-            </tr>
-        
-       
-            <tr>
-                <td><b>كتاب الرياضة</b></td>
-                <td><img src="data:image/jpeg;base64,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" width="50%" height="50%" alt="كتاب الرياضة"></td>
-                <td>100 ر.س</td>
-            </tr>
-    </table>
-        <button>شراء</button>
-    
-        <form >
-            <label for="1">your name
-            <input type="text" id="1">
-        </label>
-           <br>
-            <label for="2">your address
-            <input type="text" id="2">
-        </label>
+    <p style="background-color: antiquewhite;">cars</p>
+  <table border="">
+    <tr>
+        <th>car name:</th>
+        <th>car img:</th>
+        <th>car price</th>
+        <th>car website</th>
+    </tr>
+    <tr>
+        <td>audi</td>
+        <td><img src="https://www.autopediame.com/storage/images/Audi/RS/RS%205%20Sportback/2024%20Audi%20RS5%20Sportback.jpg" width="50%" height="50%"></td>
+        <td>125$</td>
+        <td><a href="https://www.google.com/search?sca_esv=2d77d5a7ae89fe5c&sxsrf=AHTn8zq617MaxeA43mRvjxkb4G1GfGzjrQ:1745223843875&q=%D8%B3%D8%A8%D9%88%D8%B1%D8%AA+audi&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRV6tIcrh8qhCYbCttnaL2iicpyduCwzdsAFQmOKYss6bSxFNhpUP48bQ12Y8RdTy8ypQUWAa_lfudlk26QySWuAD9U47MPbY4IfjCSji80xkkztpoM0VTvxeZBiEKh53Dref20g&udm=2&sa=X&ved=2ahUKEwiE8pG62eiMAxV5SaQEHTVbDqsQxKsJegQICxAB&ictx=0&biw=759&bih=731&dpr=1.25#vhid=jgWulwK8qzeIGM&vssid=mosaic">audi website</a></td>
+    </tr>
+
+    <tr>
+        <td>marsidi</td>
+        <td><img src="https://i.pinimg.com/736x/c4/8e/44/c48e447d309185e6f18ed37381bad951.jpg" width="50%" height="50%"></td>
+        <ol>
+            <td><li>40000$</li></td>
             <br>
-            <label for="3">order date
-            <input type="date" id="3">
-        </label>
-            <br>
-            <label for="4">comment
-            <input type="text" id="4" required>
-        </label>
-            <label>
-                <br>
-                <input type="radio" name="payment"  checked> كاش
-            </label><br>
-            <label>
-                <input type="radio" name="payment" > بطاقة دفع
-            </label>
-        </form>
-<br>
-        <textarea>
-            
-        </textarea>
-<br>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/s1sOVyBpsSo?si=-eNNYY0Zzt9JScet" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-
- 
-        <h2>الكتب المفضلة بالنسبة لي</h2>
-
-        <ol type="I">
-            <li>كتاب البرمجة</li>
-            <li>كتاب الرياضة</li>
-            <li>كتاب الرياضيات</li>
+            <td><li>3000$</li></td>
         </ol>
         
-       <a href="https://youtube.com/shorts/EQM0uMka4DM?si=ANiAe819J2AQ-rzO">كتابي المفضل عن الرياضة</a>
-    
+        <td><a href="https://www.mercedes-benz-mena.com/ksa/en/models/e-class-sedan-w214/?gad_source=1&gclid=Cj0KCQjw2ZfABhDBARIsAHFTxGzqRXW6we-OollUyHqmBODinKddffG9GT_rALDBINShP-qZ-26V5S0aAtVNEALw_wcB&gclsrc=aw.ds">marsidi website</a></td>
 
-<p><i> name khaled salem i malor in computer since and engingeering i am 23 years old</i></p>
+    </tr>
+    <tr>
+        <td>Bmw</td>
+        <td><img src="https://i.pinimg.com/736x/d4/f8/ac/d4f8aca9915abef92b79d70683bbf907.jpg" width="50%" height="50%"></td>
+        <td>200000$</td>
+        <td><a href="https://www.bmw-saudiarabia.com/models/">Bmw website</a></td>
+    </tr>
 
+
+  </table>  
 </body>
 </html>
